@@ -4,7 +4,7 @@
 
 var user_agent = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.36 Safari/537.36';
 
-var fs = require('fs');
+var { fs } = require('memfs');
 var http = require('http');
 var https = require('https');
 var path = require('path');
